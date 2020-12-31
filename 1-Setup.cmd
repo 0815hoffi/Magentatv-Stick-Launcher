@@ -45,7 +45,6 @@ adb shell "pm disable-user  --user 0 com.example.adapterkeyboard"
 adb shell "pm disable-user  --user 0 com.google.android.syncadapters.contacts"
 adb shell "pm disable-user  --user 0 com.google.android.syncadapters.calendar"
 
-pause
 echo.
 echo done
 wait.exe 5
