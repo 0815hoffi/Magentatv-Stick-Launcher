@@ -13,10 +13,7 @@ Telekom Launcher und Updater ausschalten:
 # reboot
 
 
-Magenta TV initial Setup überspringen hat bei mir über das Mikrofon " Einstellungen öffnen " funktioniert.
-Die Einrichtung ist danach nicht mehr gekommen.
-
-Vielleicht hilft das ja jemanden ;-)
+Magenta TV initial Setup durchführen Magenta Login z.b. mit Telekom Forum Login.
 
 
 Updates und Launcher wieder einschalten:
