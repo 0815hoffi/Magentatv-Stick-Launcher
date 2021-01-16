@@ -1,0 +1,11 @@
+Das CE-Image mit Etcher oder einem anderen Programm auf USB Stick schreiben. 
+Danach auf dem Stick den Ordner DTB öffnen und die S905y2-Datei (2g) kopieren 
+und ins Root des Sticks kopieren und umbennen in dtb.img. 
+Dann am Magenta Stick die Backup & Update App öffnen und irgendeine .zip wählen. 
+
+Beim Neustart wird jetzt von USB gebootet.
+
+Install EMMC
+# ceemmc -x
+
+https://www.kodinerds.net/index.php/Thread/68054-WIP-MagentaTV-Stick-die-Alternative-zu-Shield-TV-und-FireTV-Stick-4K/?pageNo=5
