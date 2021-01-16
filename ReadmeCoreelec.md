@@ -4,12 +4,12 @@ Connect Stick to OTG Cable.
 
 run
 
-# adb shell reboot update
+#adb shell reboot update
 
 Stick is now booting Coreelec.
 
 Install EMMC
-# ceemmc -x
+#ceemmc -x
 
 
 
