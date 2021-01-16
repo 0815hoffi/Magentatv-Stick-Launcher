@@ -11,7 +11,7 @@ Stick is now booting Coreelec.
 Install EMMC
 # ceemmc -x
 
-__________________________________________
+
 
 Fernbedienung Buttons:
 
@@ -19,10 +19,11 @@ FIX OK Button.
 First, create /etc/udev/hwdb.d/99-MTV.hwdb file and fill with:
 vi /storage/.config/hwdb.d/99-MTV.hwdb
 
+-----------------------------------------------------------
 evdev:input:b0005v0417p0033*
 keyboard:usb:b0005v0417p0033*
  KEYBOARD_KEY_c0041=enter
-
+-----------------------------------------------------------
 or use my 99-MTV.hwdb
 
 
