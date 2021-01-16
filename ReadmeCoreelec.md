@@ -19,11 +19,15 @@ FIX OK Button.
 First, create /etc/udev/hwdb.d/99-MTV.hwdb file and fill with:
 vi /storage/.config/hwdb.d/99-MTV.hwdb
 
+
+Very Important you must insert space before KEYBOARD_KEY
+
 -----------------------------------------------------------
 evdev:input:b0005v0417p0033*
 keyboard:usb:b0005v0417p0033*
  KEYBOARD_KEY_c0041=enter
 -----------------------------------------------------------
+
 or use my 99-MTV.hwdb
 
 
