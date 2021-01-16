@@ -31,11 +31,14 @@ keyboard:usb:b0005v0417p0033*
 or use my 99-MTV.hwdb
 
 
-restart hwdb and reboot system:
+#restart hwdb and reboot system:
 
-udevadm hwdb --update
-systemd-hwdb update
-udevadm trigger
-udevadm control --reload
+#udevadm hwdb --update
 
-reboot
+#systemd-hwdb update
+
+#udevadm trigger
+
+#udevadm control --reload
+
+#reboot
